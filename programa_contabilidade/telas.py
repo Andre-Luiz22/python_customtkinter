@@ -18,7 +18,7 @@ frame_valores.place(x = 608, y = 65)# posição dos frames valores
 
 frame_titulo = ctk.CTkFrame(root, width = 980, height = 45, fg_color = "#526087")# criação do frme do titulo
 frame_titulo.place(x = 10, y = 10)# posição do frame titulo
-
+                                                                           #janeiro = Variavel, quando o codigo lógico estiver pronto.
 titulo_app = ctk.CTkLabel(frame_titulo, text = "APP SITUAÇÃO FINANCEIRA DE JANEIRO", font=("Verdana bold" , 25), width = 960, height = 25, fg_color="transparent", bg_color = "transparent" )# criação do tutulo
 titulo_app.place(x = 10, y = 10)# posição do titulo
 
