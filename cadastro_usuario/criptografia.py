@@ -19,9 +19,4 @@ def cadastrar(usuario, senha):
     cad_senha = criptografar(senha)
     return print(f"Usuário Cadastrado:{cad_usu}\nSenha Cadastrada: {cad_senha}")
 
-iniciar()
 
-usu_usu = str(input("Digite o seu usuário\n"))
-usu_senha = str(input("Digite sua senha\n"))
-
-cadastrar(usu_usu, usu_senha)
